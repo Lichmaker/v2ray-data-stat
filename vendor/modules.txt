@@ -1,0 +1,202 @@
+# github.com/fsnotify/fsnotify v1.4.9
+github.com/fsnotify/fsnotify
+# github.com/go-sql-driver/mysql v1.6.0
+github.com/go-sql-driver/mysql
+# github.com/golang/protobuf v1.5.2
+github.com/golang/protobuf/proto
+github.com/golang/protobuf/ptypes
+github.com/golang/protobuf/ptypes/any
+github.com/golang/protobuf/ptypes/duration
+github.com/golang/protobuf/ptypes/timestamp
+# github.com/hashicorp/hcl v1.0.0
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/jinzhu/inflection v1.0.0
+github.com/jinzhu/inflection
+# github.com/jinzhu/now v1.1.2
+github.com/jinzhu/now
+# github.com/magiconair/properties v1.8.5
+github.com/magiconair/properties
+# github.com/mitchellh/mapstructure v1.4.1
+github.com/mitchellh/mapstructure
+# github.com/pelletier/go-toml v1.9.3
+github.com/pelletier/go-toml
+# github.com/pires/go-proxyproto v0.5.0
+github.com/pires/go-proxyproto
+# github.com/robfig/cron/v3 v3.0.0
+## explicit
+github.com/robfig/cron/v3
+# github.com/shimingyah/pool v0.0.0-20190724082523-04bd98b0fbfe
+## explicit
+github.com/shimingyah/pool
+# github.com/spf13/afero v1.6.0
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.3.1
+## explicit
+github.com/spf13/cast
+# github.com/spf13/jwalterweatherman v1.1.0
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.5
+github.com/spf13/pflag
+# github.com/spf13/viper v1.8.1
+## explicit
+github.com/spf13/viper
+# github.com/subosito/gotenv v1.2.0
+github.com/subosito/gotenv
+# github.com/v2fly/v2ray-core/v4 v4.41.0
+## explicit
+github.com/v2fly/v2ray-core/v4
+github.com/v2fly/v2ray-core/v4/app/stats
+github.com/v2fly/v2ray-core/v4/app/stats/command
+github.com/v2fly/v2ray-core/v4/common
+github.com/v2fly/v2ray-core/v4/common/bitmask
+github.com/v2fly/v2ray-core/v4/common/buf
+github.com/v2fly/v2ray-core/v4/common/bytespool
+github.com/v2fly/v2ray-core/v4/common/cmdarg
+github.com/v2fly/v2ray-core/v4/common/dice
+github.com/v2fly/v2ray-core/v4/common/errors
+github.com/v2fly/v2ray-core/v4/common/log
+github.com/v2fly/v2ray-core/v4/common/net
+github.com/v2fly/v2ray-core/v4/common/platform
+github.com/v2fly/v2ray-core/v4/common/protocol
+github.com/v2fly/v2ray-core/v4/common/protocol/udp
+github.com/v2fly/v2ray-core/v4/common/serial
+github.com/v2fly/v2ray-core/v4/common/session
+github.com/v2fly/v2ray-core/v4/common/signal
+github.com/v2fly/v2ray-core/v4/common/signal/done
+github.com/v2fly/v2ray-core/v4/common/signal/semaphore
+github.com/v2fly/v2ray-core/v4/common/strmatcher
+github.com/v2fly/v2ray-core/v4/common/task
+github.com/v2fly/v2ray-core/v4/common/uuid
+github.com/v2fly/v2ray-core/v4/features
+github.com/v2fly/v2ray-core/v4/features/dns
+github.com/v2fly/v2ray-core/v4/features/dns/localdns
+github.com/v2fly/v2ray-core/v4/features/inbound
+github.com/v2fly/v2ray-core/v4/features/outbound
+github.com/v2fly/v2ray-core/v4/features/policy
+github.com/v2fly/v2ray-core/v4/features/routing
+github.com/v2fly/v2ray-core/v4/features/stats
+github.com/v2fly/v2ray-core/v4/main/confloader
+github.com/v2fly/v2ray-core/v4/transport
+github.com/v2fly/v2ray-core/v4/transport/internet
+github.com/v2fly/v2ray-core/v4/transport/internet/tagged
+github.com/v2fly/v2ray-core/v4/transport/internet/udp
+# golang.org/x/net v0.0.0-20210614182718-04defd469f4e
+golang.org/x/net/http/httpguts
+golang.org/x/net/http2
+golang.org/x/net/http2/hpack
+golang.org/x/net/idna
+golang.org/x/net/internal/timeseries
+golang.org/x/net/trace
+# golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
+## explicit
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.6
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+# google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c
+google.golang.org/genproto/googleapis/rpc/status
+# google.golang.org/grpc v1.38.0
+google.golang.org/grpc
+google.golang.org/grpc/attributes
+google.golang.org/grpc/backoff
+google.golang.org/grpc/balancer
+google.golang.org/grpc/balancer/base
+google.golang.org/grpc/balancer/grpclb/state
+google.golang.org/grpc/balancer/roundrobin
+google.golang.org/grpc/binarylog/grpc_binarylog_v1
+google.golang.org/grpc/codes
+google.golang.org/grpc/connectivity
+google.golang.org/grpc/credentials
+google.golang.org/grpc/encoding
+google.golang.org/grpc/encoding/proto
+google.golang.org/grpc/grpclog
+google.golang.org/grpc/internal
+google.golang.org/grpc/internal/backoff
+google.golang.org/grpc/internal/balancerload
+google.golang.org/grpc/internal/binarylog
+google.golang.org/grpc/internal/buffer
+google.golang.org/grpc/internal/channelz
+google.golang.org/grpc/internal/credentials
+google.golang.org/grpc/internal/envconfig
+google.golang.org/grpc/internal/grpclog
+google.golang.org/grpc/internal/grpcrand
+google.golang.org/grpc/internal/grpcsync
+google.golang.org/grpc/internal/grpcutil
+google.golang.org/grpc/internal/metadata
+google.golang.org/grpc/internal/resolver
+google.golang.org/grpc/internal/resolver/dns
+google.golang.org/grpc/internal/resolver/passthrough
+google.golang.org/grpc/internal/resolver/unix
+google.golang.org/grpc/internal/serviceconfig
+google.golang.org/grpc/internal/status
+google.golang.org/grpc/internal/syscall
+google.golang.org/grpc/internal/transport
+google.golang.org/grpc/internal/transport/networktype
+google.golang.org/grpc/keepalive
+google.golang.org/grpc/metadata
+google.golang.org/grpc/peer
+google.golang.org/grpc/resolver
+google.golang.org/grpc/serviceconfig
+google.golang.org/grpc/stats
+google.golang.org/grpc/status
+google.golang.org/grpc/tap
+# google.golang.org/protobuf v1.26.0
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protodesc
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/timestamppb
+# gopkg.in/ini.v1 v1.62.0
+gopkg.in/ini.v1
+# gopkg.in/yaml.v2 v2.4.0
+gopkg.in/yaml.v2
+# gorm.io/driver/mysql v1.1.1
+## explicit
+gorm.io/driver/mysql
+# gorm.io/gorm v1.21.11
+## explicit
+gorm.io/gorm
+gorm.io/gorm/callbacks
+gorm.io/gorm/clause
+gorm.io/gorm/logger
+gorm.io/gorm/migrator
+gorm.io/gorm/schema
+gorm.io/gorm/utils
