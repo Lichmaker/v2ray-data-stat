@@ -16,5 +16,7 @@ type Tabler interface {
 
 // TableName 会将 User 的表名重写为 `profiles`
 func (DataStatistics) TableName() string {
-	return "data_statistics"
+	// 按照月份进行分表
+	currentMonth := time.Now().Local().Format("200601")
+	return "data_statistics_" + currentMonth
 }

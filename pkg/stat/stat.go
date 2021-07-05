@@ -28,6 +28,11 @@ func Handle() {
 
 	currentDate := time.Now().Local().Format("2006-01-02")
 	for _, value := range data {
+		if value.DownlinkByte == 0 && value.UplinkByte == 0 {
+			// 没数据，直接忽略
+			continue
+		}
+
 		statModel := datastatistics.DataStatistics{
 			UplinkByte:   uint64(value.UplinkByte),
 			DownlinkByte: uint64(value.DownlinkByte),
