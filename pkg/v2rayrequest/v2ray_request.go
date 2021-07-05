@@ -15,11 +15,11 @@ var DataStat []struct {
 	Value    string
 }
 
-func GetDataStat(reset bool) []struct {
+func GetDataStat(reset bool) ([]struct {
 	Username     string
 	UplinkByte   int64
 	DownlinkByte int64
-} {
+}, error) {
 	var DataStat []struct {
 		Username     string
 		UplinkByte   int64
@@ -31,7 +31,7 @@ func GetDataStat(reset bool) []struct {
 
 	connect, err := grpc.Get()
 	if err != nil {
-		panic(err)
+		return nil, err
 	}
 	defer connect.Close()
 
@@ -42,7 +42,7 @@ func GetDataStat(reset bool) []struct {
 	defer cancel()
 	respond, err := client.QueryStats(ctx, request)
 	if err != nil {
-		panic(err)
+		return nil, err
 	}
 
 	for _, value := range respond.Stat {
@@ -76,5 +76,5 @@ func GetDataStat(reset bool) []struct {
 		DataStat = append(DataStat, s)
 	}
 
-	return DataStat
+	return DataStat, nil
 }

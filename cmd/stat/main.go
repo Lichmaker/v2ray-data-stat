@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"v2raydatastat/bootstrap"
 	"v2raydatastat/config"
 	"v2raydatastat/pkg/stat"
@@ -9,6 +10,7 @@ import (
 )
 
 func main() {
+	log.SetPrefix("[v2ray-stat]")
 	config.Initialize()
 	bootstrap.SetupDB()
 	bootstrap.SetupGRPCConnect()

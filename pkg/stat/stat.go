@@ -17,8 +17,12 @@ var model datasummary.DataSummary
 
 func Handle() {
 	reset, _ := strconv.ParseBool(config.GetString("v2ray.reset"))
-	data := v2rayrequest.GetDataStat(reset)
-	log.Default().Println(data)
+	data, e := v2rayrequest.GetDataStat(reset)
+	if e != nil {
+		log.Println(e)
+		return
+	}
+	log.Println(data)
 
 	var err error
 
